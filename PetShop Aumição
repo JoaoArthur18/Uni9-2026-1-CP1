@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu PetShop - Iniciante</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="menu">
+        <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?q=80&w=100&h=100&auto=format&fit=crop" alt="Foto Perfil Pet" class="foto-menu">
+        
+        <nav class="links-menu">
+            <a href="#">Início</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="titulo-pagina">Conheça Nossos Serviços</h1>
+
+        <section class="container-servicos">
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?q=80&w=500&auto=format&fit=crop" alt="Cachorro tomando banho">
+                <div class="card-texto">
+                    <h3>Banho & Tosa</h3>
+                    <p>Cuidado completo para deixar seu pet cheiroso e feliz.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=500&auto=format&fit=crop" alt="Veterinário atendendo gato">
+                <div class="card-texto">
+                    <h3>Veterinário</h3>
+                    <p>Consultas e exames para garantir a saúde do seu amigo.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?q=80&w=500&auto=format&fit=crop" alt="Cachorro em hotel">
+                <div class="card-texto">
+                    <h3>Hotel Pet</h3>
+                    <p>Um lar longe de casa, com muita diversão e carinho.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="bloco-contato">
+            <h4>Fale Conosco</h4>
+            <p><strong>Telefone:</strong> (11) 99999-9999</p>
+            <p><strong>Endereço:</strong> Rua dos Pets, 123</p>
+        </div>
+        <p class="copyright">&copy; 2026 PetShop Show</p>
+    </footer>
+
+</body>
+</html>
+.
