@@ -2,66 +2,61 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PetShop Elegance - Serviços</title>
+    <title>Meu PetShop - Iniciante</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="user-profile">
-                <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?q=80&w=100&h=100&auto=format&fit=crop" alt="Logo PetShop">
-                <span>PetShop Premium</span>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Início</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </div>
-    </nav>
+    <header class="menu">
+        <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?q=80&w=100&h=100&auto=format&fit=crop" alt="Foto Perfil Pet" class="foto-menu">
+        
+        <nav class="links-menu">
+            <a href="#">Início</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
 
-    <section id="servicos" class="services-section">
-        <h2 class="section-title">Nossos Serviços Especializados</h2>
-        <p class="section-subtitle">Cuidado e carinho que seu melhor amigo merece.</p>
+    <main>
+        <h1 class="titulo-pagina">Conheça Nossos Serviços</h1>
 
-        <div class="services-grid">
-            <div class="service-card">
-                <div class="service-image">
-                    <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?q=80&w=500&auto=format&fit=crop" alt="Banho e Tosa">
-                </div>
-                <div class="service-info">
+        <section class="container-servicos">
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?q=80&w=500&auto=format&fit=crop" alt="Cachorro tomando banho">
+                <div class="card-texto">
                     <h3>Banho & Tosa</h3>
-                    <p>Produtos hipoalergênicos e profissionais treinados para todas as raças.</p>
-                    <a href="#" class="btn-more">Saber mais</a>
+                    <p>Cuidado completo para deixar seu pet cheiroso e feliz.</p>
                 </div>
             </div>
 
-            <div class="service-card">
-                <div class="service-image">
-                    <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=500&auto=format&fit=crop" alt="Veterinário">
-                </div>
-                <div class="service-info">
-                    <h3>Atendimento Vet</h3>
-                    <p>Consultas de rotina e exames preventivos para garantir a saúde do seu pet.</p>
-                    <a href="#" class="btn-more">Saber mais</a>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=500&auto=format&fit=crop" alt="Veterinário atendendo gato">
+                <div class="card-texto">
+                    <h3>Veterinário</h3>
+                    <p>Consultas e exames para garantir a saúde do seu amigo.</p>
                 </div>
             </div>
 
-            <div class="service-card">
-                <div class="service-image">
-                    <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?q=80&w=500&auto=format&fit=crop" alt="Hotel Pet">
-                </div>
-                <div class="service-info">
-                    <h3>Hotel & Creche</h3>
-                    <p>Espaço amplo e monitorado para o seu pet brincar enquanto você viaja.</p>
-                    <a href="#" class="btn-more">Saber mais</a>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?q=80&w=500&auto=format&fit=crop" alt="Cachorro em hotel">
+                <div class="card-texto">
+                    <h3>Hotel Pet</h3>
+                    <p>Um lar longe de casa, com muita diversão e carinho.</p>
                 </div>
             </div>
+
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="bloco-contato">
+            <h4>Fale Conosco</h4>
+            <p><strong>Telefone:</strong> (11) 99999-9999</p>
+            <p><strong>Endereço:</strong> Rua dos Pets, 123</p>
         </div>
-    </section>
+        <p class="copyright">&copy; 2026 PetShop Show</p>
+    </footer>
 
 </body>
 </html>
