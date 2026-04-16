@@ -1,0 +1,180 @@
+/* Configuração básica para tirar espaços que o navegador cria sozinho */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do Menu */
+.menu {
+    background-color: #333; /* Cinza escuro */
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center; /* Alinha a foto com o texto */
+    justify-content: space-around;
+}
+
+.foto-menu {
+    border-radius: 50%; /* Deixa a foto redonda */
+    border: 2px solid #f1c40f; /* Borda amarela/dourada */
+}
+
+.menu a {
+    color: white;
+    text-decoration: none; /* Tira o sublinhado do link */
+    margin-left: 20px;
+}
+
+/* Estilo dos Cards de Serviço */
+.container-servicos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Se não couber, ele pula linha */
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    margin: 15px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden; /* Faz a imagem respeitar a borda arredondada */
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.card img {
+    width: 100%; /* Imagem ocupa toda a largura do card */
+}
+
+.card h3 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 0 10px 15px 10px;
+}
+
+/* Estilo do Rodapé */
+.rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.contatos {
+    margin-bottom: 15px;
+}
+
+.copyright {
+    font-size: 12px;
+    color: #888;
+}
+/* --- Configurações Básicas --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ajuda a controlar tamanhos com bordas */
+    font-family: Arial, sans-serif; /* Fonte simples */
+}
+
+/* --- Estilo do Menu --- */
+.menu {
+    background-color: #333; /* Fundo cinza escuro */
+    color: white;
+    padding: 10px 50px; /* Espaço interno */
+    display: flex; /* Coloca os itens lado a lado */
+    align-items: center; /* Alinha tudo verticalmente */
+    justify-content: space-between; /* Foto na esquerda, links na direita */
+}
+
+.foto-menu {
+    width: 60px; /* Largura da foto */
+    height: 60px; /* Altura da foto */
+    border-radius: 50%; /* Deixa a foto redonda */
+    border: 3px solid #f1c40f; /* Borda amarela */
+    object-fit: cover; /* Faz a foto caber no círculo sem esticar */
+}
+
+.links-menu a {
+    color: white;
+    text-decoration: none; /* Tira o sublinhado */
+    margin-left: 20px; /* Espaço entre os links */
+    font-weight: bold;
+}
+
+/* --- Estilo da Área Principal --- */
+.titulo-pagina {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.container-servicos {
+    display: flex; /* Coloca os cards lado a lado */
+    justify-content: center; /* Centraliza os cards na tela */
+    flex-wrap: wrap; /* Se não couber na tela, pula para a linha de baixo */
+    padding: 20px;
+}
+
+/* --- Estilo dos Cards (Seções de Serviço) --- */
+.card {
+    background-color: white;
+    border: 1px solid #ddd; /* Borda cinza clara */
+    border-radius: 10px; /* Cantos arredondados */
+    width: 300px; /* Largura fixa do card */
+    margin: 15px; /* Espaço entre os cards */
+    overflow: hidden; /* Garante que a imagem respeite os cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra suave para destacar */
+}
+
+.card img {
+    width: 100%; /* A imagem ocupa toda a largura do card */
+    height: 200px; /* Altura fixa para todas as imagens ficarem iguais */
+    object-fit: cover; /* Corta a imagem para caber sem distorcer */
+}
+
+.card-texto {
+    padding: 20px; /* Espaço interno do texto */
+    text-align: center;
+}
+
+.card-texto h3 {
+    color: #f1c40f; /* Título do serviço em amarelo */
+    margin-bottom: 10px;
+}
+
+.card-texto p {
+    color: #666; /* Texto em cinza */
+    font-size: 14px;
+}
+
+/* --- Estilo do Rodapé --- */
+.rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+
+.bloco-contato h4 {
+    color: #f1c40f;
+    margin-bottom: 15px;
+}
+
+.bloco-contato p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #bbb;
+}
