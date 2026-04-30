@@ -1,0 +1,37 @@
+<html lang="pt-br">
+<head>
+</head>
+<body>
+
+    <label for="cep"></label>
+    <input name="cep" type="text" id="cep"/>
+    <button id="pesquisar-cep">Buscar Endereço</button>
+    <div id="container"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $("#pesquisar-cep").click(onPesquisar);
+
+        function onPesquisar(){
+            let cep = $("#cep").val().trim();
+            $.ajax({
+                url: "https://viacep.com.br/ws/" + cep + "/json/",
+                method: "GET",
+                success: processarDados
+            })
+        }
+
+        function processarDados(dado){
+            let logradouro = $("<p/>");
+            let bairro = $("<p/>");
+            let uf = $("<p/>");
+
+            logradouro.text(dado.logradouro);
+            bairro.text(dado.bairro);
+            uf.text(dado.uf);
+
+            $("#container").append(logradouro, bairro, uf);
+        }
+    </script>
+</body>
+</html>
