@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <title>Document</title>
+</head>
+<body>
+  <button id="btn">Incrementar</button>
+  <div id="container"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    let contador = 0;
+
+    $("#btn").click(incrementar);
+
+    function incrementar(){
+      contador++;
+
+      let p = $("<p></p>");
+      p.text("Adicionando texto dinamico: " + contador);
+      $("#container").append(p);
+    }
+  </script>
+</body>
+</html>
