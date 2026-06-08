@@ -21,7 +21,7 @@ namespace Model_binding.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Adiciona o aluno digitado na nossa lista
+                // Adiciona o aluno digitado na lista
                 _listaAlunos.Add(aluno);
                 
                 TempData["Sucesso"] = "Aluno cadastrado com sucesso!";
